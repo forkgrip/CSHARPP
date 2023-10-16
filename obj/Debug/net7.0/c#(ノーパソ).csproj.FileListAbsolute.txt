@@ -1,0 +1,15 @@
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\bin\Debug\net7.0\c#(ノーパソ).exe
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\bin\Debug\net7.0\c#(ノーパソ).deps.json
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\bin\Debug\net7.0\c#(ノーパソ).runtimeconfig.json
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\bin\Debug\net7.0\c#(ノーパソ).dll
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\bin\Debug\net7.0\c#(ノーパソ).pdb
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).csproj.AssemblyReference.cache
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).AssemblyInfoInputs.cache
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).AssemblyInfo.cs
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).csproj.CoreCompileInputs.cache
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).dll
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\refint\c#(ノーパソ).dll
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).pdb
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\c#(ノーパソ).genruntimeconfig.cache
+C:\Users\hakus\ドキュメント\c#(ノーパソ)\obj\Debug\net7.0\ref\c#(ノーパソ).dll
