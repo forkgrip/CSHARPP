@@ -12,3 +12,5 @@ namespace SampleConsole
         }
     }
 }
+
+//なんか新しいものを書くときにコピー用

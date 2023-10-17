@@ -1,0 +1,30 @@
+using System;
+
+namespace SampleConsole
+{
+    class Original
+    {
+        static void ShowEvenOrOdd(int hama)
+        {
+        
+        if(hama % 2 == 0)
+        {
+            Console.WriteLine("ぐーすー");
+        }
+        //この↓elseできーすーだけでもおｋ\
+        if(hama % 2 == 1)
+        {
+            Console.WriteLine("きーすー");
+        }
+        
+        }
+        
+        static void Main ()
+        {
+
+        ShowEvenOrOdd(8);
+
+        }
+        
+    }
+}
