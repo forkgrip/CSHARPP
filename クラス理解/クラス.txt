@@ -1,10 +1,15 @@
 クラスの書き方
-class (クラス名)
+class クラス名(同じ名前)
 {
 
     メンバ変数（フィールド）
+    {public int number}
 
     コンストラクタ※
+    [
+        public クラス名(同じ名前)
+        this.number = 10
+    ]
 
     メンバメソッド
 
@@ -13,9 +18,11 @@ class (クラス名)
 }
 
 
-class (クラス名)
+class クラス名
 {
+
     インスタンス
+    [クラス名(同じ名前) 変数名 = new クラス名(同じ名前)]
 
     メンバメソッドの呼び出し
 
@@ -35,11 +42,11 @@ class (クラス名)
 
 ---実例---
 
-class (Katana)
+class Katana
 {
 
     //メンバ変数（その１）
-    public baseAttack = 20;
+    public int baseAttack;
 
     //メンバ変数（その２）
     public string weaponName;
@@ -55,20 +62,36 @@ class (Katana)
     public Player()
     {
         this.weaponName = "刀の名称"
+        this.baseAttack = 20;
     }
 
 }
 
-class (attack)
+class Attack
 {
     static void Main(string[] args)
     {
-    Katana player'sKatana_1 = new Murasama();
-    Console.Writeline(this.weaponName);
-    player'sKatana_1.skill_1;
+        //インスタンス生成
+        Katana PlayerKatana1 = new Katana();
+        
+        //baseAttackを表示
+        Console.WriteLine(PlayerKatana1.baseAttack);
+        
+        //メンバメソッドを呼び出し
+        PlayerKatana1.Skill_1();
+
+        //weaponNameをnullでないことを確認
+        //weaponNameを変更
+        Console.WriteLine(PlayerKatana1.weaponName);
+        PlayerKatana1.weaponName = "村様";
+        Console.WriteLine(PlayerKatana1.weaponName);
     }
 }
 
-------
+------コンソール------
+現在の攻撃力30
+刀の名称
+村様
+30
 
 
