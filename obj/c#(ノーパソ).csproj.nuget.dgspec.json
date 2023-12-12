@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hakus\\ドキュメント\\CSHARPP\\c#(ノーパソ).csproj": {}
+    "C:\\Users\\hakus\\デスクトップ\\CSHARPP\\c#(ノーパソ).csproj": {}
   },
   "projects": {
-    "C:\\Users\\hakus\\ドキュメント\\CSHARPP\\c#(ノーパソ).csproj": {
+    "C:\\Users\\hakus\\デスクトップ\\CSHARPP\\c#(ノーパソ).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hakus\\ドキュメント\\CSHARPP\\c#(ノーパソ).csproj",
+        "projectUniqueName": "C:\\Users\\hakus\\デスクトップ\\CSHARPP\\c#(ノーパソ).csproj",
         "projectName": "c#(ノーパソ)",
-        "projectPath": "C:\\Users\\hakus\\ドキュメント\\CSHARPP\\c#(ノーパソ).csproj",
+        "projectPath": "C:\\Users\\hakus\\デスクトップ\\CSHARPP\\c#(ノーパソ).csproj",
         "packagesPath": "C:\\Users\\hakus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hakus\\ドキュメント\\CSHARPP\\obj\\",
+        "outputPath": "C:\\Users\\hakus\\デスクトップ\\CSHARPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hakus\\AppData\\Roaming\\NuGet\\NuGet.Config",

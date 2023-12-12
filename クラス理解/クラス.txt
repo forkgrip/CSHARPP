@@ -1,0 +1,74 @@
+クラスの書き方
+class (クラス名)
+{
+
+    メンバ変数（フィールド）
+
+    コンストラクタ※
+
+    メンバメソッド
+
+    (プロパティ)←ここでは特に触れない
+
+}
+
+
+class (クラス名)
+{
+    インスタンス
+
+    メンバメソッドの呼び出し
+
+    etc...
+
+}
+
+※コンストラクタ
+メンバ変数で定義したものは、null(なんも中身がない)なので、初期の値を定義するもの
+
+・クラス内で宣言するものは、メンバ(ほにゃほにゃ)となる
+・メンバ(ほにゃほにゃ)はアクセス修飾子を付ける
+　　アクセス修飾子 ほにゃほにゃ 
+    　　public     baseAttack = 20;
+・this.(変数名)
+    メンバ変数の呼び出し文法（他のメソッドとかでメンバ変数使う時に、用いるもの）
+
+---実例---
+
+class (Katana)
+{
+
+    //メンバ変数（その１）
+    public baseAttack = 20;
+
+    //メンバ変数（その２）
+    public string weaponName;
+
+    //メンバメソッド
+    public void skill_1 ()
+    {
+        this.baseAttack = this.baseAttack + 10
+        Console.Writeline("現在の攻撃力" + this.baseAttack)
+    }
+
+    //コンストラクタ
+    public Player()
+    {
+        this.weaponName = "刀の名称"
+    }
+
+}
+
+class (attack)
+{
+    static void Main(string[] args)
+    {
+    Katana player'sKatana_1 = new Murasama();
+    Console.Writeline(this.weaponName);
+    player'sKatana_1.skill_1;
+    }
+}
+
+------
+
+
