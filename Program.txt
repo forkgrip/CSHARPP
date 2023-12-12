@@ -24,7 +24,7 @@ namespace SampleRPG
 
             string newname = player1.Getname();
 
-            string newNAME = "かめ"; //文字列を代入して、
+            string newNAME = "ああrrolululrああああ";//文字列を代入して、
 
             player1.Setname(newNAME);
             

@@ -7,15 +7,17 @@ namespace SampleConsole
         static void ShowEvenOrOdd(int hama)
         {
         
-        if(hama % 2 == 0)
-        {
-            Console.WriteLine("ぐーすー");
-        }
-        //この↓elseできーすーだけでもおｋ\
-        if(hama % 2 == 1)
-        {
-            Console.WriteLine("きーすー");
-        }
+            if(hama % 2 == 0)
+            {
+                Console.WriteLine("ぐーすー");
+            }
+
+            //この↓elseできーすーだけでもおｋ
+
+            if(hama % 2 == 1)
+            {
+                Console.WriteLine("きーすー");
+            }
         
         }
         

@@ -31,14 +31,21 @@ namespace SampleRPG
             }
 
 
+        //nameについて、約束を付けて-3902hpとかにしないようにする
+
+        //name変数に値(文字列)を代入
+
         } 
 
         public void Setname(string name)
         
         {
-            this.name = name;
-            int LONG = name.Length;
-            if(LONG <= 8 )
+            int Len = name.Length;
+            if(Len <= 8 )
+            {
+                this.name = name;
+            }
+            else
             {
                 this.name = name;
             }

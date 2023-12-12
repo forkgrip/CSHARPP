@@ -9,9 +9,11 @@ namespace SampleConsole
 
         int n = 1;
 
-            while (true) {
+            while (true) 
+            {
                 
-                if(n == 500){
+                if(n == 500)
+                {
                     break;
                 }
 
