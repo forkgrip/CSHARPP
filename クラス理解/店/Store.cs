@@ -7,6 +7,7 @@ namespace third_store
     //  お店ショップクラス作成
     class Store_StoreShop
     {
+        public Buyer storebuy= new Buyer(); 
         //ここでインスタンスを作ろうとすると、値参照とかをつかうことになる。めんどい
         //public void Instan()
         //{

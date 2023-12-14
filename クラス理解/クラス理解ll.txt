@@ -1,0 +1,144 @@
+クラスの書き方
+
+class CLASSE
+{
+
+    メンバ変数
+    public int number;
+
+    コンストラクタ※
+    public CLASSE()
+    {
+        this.number = 10;
+    }
+
+    メンバメソッド
+    public void 鶏肉method()
+    {
+        Console.WriteLine("鶏肉は" + number + "コです");
+    }
+
+    プロパティ※3
+
+}
+
+class LASC
+{
+
+    static void Main(string[] args)
+    {
+
+        インスタンス※2
+        CLASSE INSUTANS = new CLASSE();
+
+        メンバメソッドの参照
+        INSUTANS.鶏肉method();
+
+        メンバ変数の参照
+        Console.WriteLine(INSUTANS.number);
+
+        etc...
+
+    }
+
+}
+
+---コンソール---
+鶏肉は、10コです
+10
+
+---説明---
+※コンストラクタ
+メンバ変数で定義したものは、null(なんも中身がない)なので、初期の値を定義するもの
+別にint number = 20; ってやってもいい
+
+※2
+インスタンスは、めｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔｔっちゃ重要
+
+
+クラス名 変数名 = new クラス名();　　　　　　　　←メソッドに定義
+                                                                                                                クラス名 変数名 = new();　でもおｋ
+アクセス修飾子クラス名 変数名 = new クラス名();　←クラスに定義　（アクセス修飾子 = publicとか）
+
+メンバ変数、メンバメソッド、メンバなんちゃらを参照するときにこれがないと使えない
+()を使わずに参照するには、適当にこれを使える
+あれ、()使ったらどうなるんだ...?（要検証）
+
+
+
+※3
+未知。
+
+参照においての、namespaceの使い方
+
+別のcsファイルから参照をするために、名前を決める
+
+参照したいときは、
+using CLASS!;
+というようにする
+
+例
+using system;
+
+    namespace CLASS!
+    {
+        class CLASSE
+        {
+            メンバ変数
+            public int number;
+
+            コンストラクタ※
+            public CLASSE()
+            {
+                this.number = 10;
+            }
+
+            メンバメソッド
+                    public void 鶏肉method()
+            {
+            Console.WriteLine("鶏肉は" + number + "コです");
+            }
+
+        }
+    }
+
+---別csファイル---
+
+using system;
+using CLASS!;
+
+    namespace Prg3
+    {
+        class LASC
+        {
+
+            static void Main(string[] args)
+            {
+
+                インスタンス
+                CLASSE INSUTANS = new CLASSE();
+
+                メンバメソッドの参照
+                INSUTANS.鶏肉method();
+
+                メンバ変数の参照
+                Console.WriteLine(INSUTANS.number);
+
+                etc...
+
+            }
+
+        }
+    }
+
+---コンソール---
+鶏肉は、10コです
+10
+
+---補足、その他---
+なお、namespaceは、何個でも作れる
+
+#うすうす気ずいているような気がするが、()は、引数渡しができる
+#あと、インスタンスは、変数のため、変数の性質が通る（”INSUTANS型からint型への変換ができません”など）
+#メソッド＝関数
+#なぜか、クラス＝オブジェクト指向の一つ

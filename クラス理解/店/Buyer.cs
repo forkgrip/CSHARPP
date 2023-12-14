@@ -27,7 +27,7 @@ namespace third_buy
             //1を選んだ時の処理
             if (chose_shop == 1)
             {
-                //お店ショップの参照（お店ショップへの処理につなげるため）
+                //インスタンス作成（お店ショップへの処理につなげるため）
                 Store_StoreShop SaleFromStoreShop = new Store_StoreShop();
                 //お店ショップの処理を参照（簡単に言うと、お店ショップの取引を開始）
                 SaleFromStoreShop.sale_stuff();
