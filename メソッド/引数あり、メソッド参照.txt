@@ -1,0 +1,71 @@
+・引数あり、戻り値なしメソッド
+
+void メソッド名 (引数 引数名)
+
+・呼び出し方
+メソッド名(引数)
+
+※２個以上引数を、入れるときは、Katana, Sowrdのようにする
+※違う種類の引数は入れられない、Katana, 101　×エラー
+
+
+------実例------
+static void Weaponlist (string waepon)
+
+    if(weapon == Katana)
+    {
+        Console.WriteLine("鋭い");
+    }
+
+    else if(weapon == Sowrd)
+    {
+        Console.WriteLine("強い");
+    }
+
+static void Main(string[] args)
+
+    {
+    Weaponlist(Katana);
+    }
+
+------コンソール------
+鋭い
+
+
+
+
+他の引数の時(int)
+
+static void JIHANKI (int num)
+{
+if(num == 1)
+    {
+    Console.WriteLine("ソーダ");
+    }
+
+else if(num == 2)
+    {
+    Console.WriteLine("コーラ");
+    }
+
+else if(num == 101)
+    {
+
+    Console.WriteLine("ほ");
+
+    num = 0;
+
+    Console.WriteLine("num=" + num);
+
+    }
+}
+
+static void Main(string[] args)
+
+    {
+    JIHANKI(101);
+    }
+
+------コンソール------
+ほ
+num=0

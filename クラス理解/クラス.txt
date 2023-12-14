@@ -7,8 +7,10 @@ class クラス名(同じ名前)
 
     コンストラクタ※
     [
-        public クラス名(同じ名前)
-        this.number = 10
+        public クラス名(同じ名前)()
+        {
+            this.number = 10
+        }
     ]
 
     メンバメソッド

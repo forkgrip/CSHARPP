@@ -7,7 +7,7 @@ namespace VM
 {
     class VendingMachine
     {
-
+        //値段とか、自販機とか、購入者の所持金とか定義
         public int cokeStock;
 
         public int cokePrice;
@@ -15,7 +15,7 @@ namespace VM
         public int vendingMachineMoney;
 
         public int BuyerMoney;
-
+        //
         public VendingMachine()
         {
             this.cokeStock = 10;
