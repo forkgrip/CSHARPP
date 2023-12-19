@@ -1,0 +1,19 @@
+using System;
+
+namespace two
+{
+    class Program
+    {
+        //Methodの参照＋引数渡し(「23」を入力)
+        static void Main(string[] args)
+        {
+            Method(23);
+        }
+        
+        //methodメソッドを作り、引数を宣言
+        static void Method(int num)
+        {   
+            Console.WriteLine(num);
+        }
+    }
+}

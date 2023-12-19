@@ -1,0 +1,20 @@
+using System;
+
+namespace SampleConsole
+{
+    class Original
+    {
+        //いらっしゃいコールプログラム（メソッド）を作る
+        static void Shop()
+        {
+        Console.WriteLine("らっしゃい");
+        }
+        
+        static void Main(string[] args){
+            //例の呼び出し
+            Shop();
+
+            }
+
+    }
+}

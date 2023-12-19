@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace SampleConsole
+{
+    class Original
+    {
+        static void Main(string[] args)
+        {
+        
+        
+        
+        }
+    }
+}
+
+//なんか新しいものを書くときにコピー用

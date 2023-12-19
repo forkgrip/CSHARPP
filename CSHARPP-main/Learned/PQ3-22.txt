@@ -1,0 +1,59 @@
+using System;
+using System.Runtime.CompilerServices;
+
+namespace SampleConsole
+{
+    class Original
+    {
+        
+        static int CalcAverage(string SujiMoti)
+        {
+        
+        int n = 0;
+
+        if(SujiMoti == "一個目")
+        {
+            n = 204;
+        }
+
+        if(SujiMoti == "二個目")
+        {
+            n = 301;
+        }
+
+        if(SujiMoti == "三個目")
+        {
+            n = 303;
+        }
+
+        return n;
+
+        }
+        
+        static void Main(string[] args)
+        {
+        
+        int a = CalcAverage("一個目");
+
+        int b = CalcAverage("二個目");
+
+        int c = CalcAverage("三個目");
+
+        Console.WriteLine("一つ目" + a);
+
+        Console.WriteLine("二つ目" + b);
+
+        Console.WriteLine("三つ目" + c);
+
+        double ans;
+
+        ans = (a + b + c) / 3.0f;
+
+        Console.WriteLine(ans);
+
+
+        }
+        
+    }
+}
+//フツーに考えて、最終的にfloatが返されるのに、なんで、int = nで返しまくってるんすか？

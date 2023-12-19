@@ -1,0 +1,28 @@
+using System;
+
+namespace SampleConsole
+{
+    class PQ3no17
+    {
+        static void Main(string[] args)
+        {
+
+        int n = 1;
+
+            while (true) 
+            {
+                
+                if(n == 500)
+                {
+                    break;
+                }
+
+            n = n + 1;
+            
+            }
+
+        Console.WriteLine(n);
+        
+        }
+    }
+}

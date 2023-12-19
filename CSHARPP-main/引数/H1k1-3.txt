@@ -1,0 +1,26 @@
+using System;
+
+namespace twohalf{
+    class Program
+    {                    
+        //Methodの参照＋引数渡し(「500,匹,ture」を入力)
+        static void Main(string[] args)
+        {
+            Method(500,"匹",true);
+        }
+        //Methodメソッドを作成、複数の引数を宣言
+        static void Method(int num , string word , bool Botton)
+        {
+            //渡されたnumを表示
+            Console.WriteLine(num);
+            //渡されたwordを表示
+            Console.WriteLine(word);
+            //もし、渡されたBottonがtrueなら、numとwordを表示
+            if(Botton == true)
+            {
+                Console.WriteLine(num + word);
+            }
+
+        }
+    }
+}

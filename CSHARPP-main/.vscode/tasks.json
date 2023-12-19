@@ -7,11 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-<<<<<<< HEAD
                 "${workspaceFolder}/c#(ノーパソ).sln",
-=======
-                "${workspaceFolder}/CSHARPP-main/c#(ノーパソ).sln",
->>>>>>> 5c3035e (引数復習2)
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -23,11 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-<<<<<<< HEAD
                 "${workspaceFolder}/c#(ノーパソ).sln",
-=======
-                "${workspaceFolder}/CSHARPP-main/c#(ノーパソ).sln",
->>>>>>> 5c3035e (引数復習2)
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -41,11 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-<<<<<<< HEAD
                 "${workspaceFolder}/c#(ノーパソ).sln"
-=======
-                "${workspaceFolder}/CSHARPP-main/c#(ノーパソ).sln"
->>>>>>> 5c3035e (引数復習2)
             ],
             "problemMatcher": "$msCompile"
         }
