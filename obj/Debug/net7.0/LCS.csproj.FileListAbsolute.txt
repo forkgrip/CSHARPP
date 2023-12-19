@@ -1,0 +1,15 @@
+C:\Users\hakus\ドキュメント\LCS\bin\Debug\net7.0\LCS.exe
+C:\Users\hakus\ドキュメント\LCS\bin\Debug\net7.0\LCS.deps.json
+C:\Users\hakus\ドキュメント\LCS\bin\Debug\net7.0\LCS.runtimeconfig.json
+C:\Users\hakus\ドキュメント\LCS\bin\Debug\net7.0\LCS.dll
+C:\Users\hakus\ドキュメント\LCS\bin\Debug\net7.0\LCS.pdb
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.csproj.AssemblyReference.cache
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.AssemblyInfoInputs.cache
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.AssemblyInfo.cs
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.csproj.CoreCompileInputs.cache
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.dll
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\refint\LCS.dll
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.pdb
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\LCS.genruntimeconfig.cache
+C:\Users\hakus\ドキュメント\LCS\obj\Debug\net7.0\ref\LCS.dll

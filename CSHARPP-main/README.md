@@ -1,2 +1,0 @@
-# CSHARPP
-Learning C#

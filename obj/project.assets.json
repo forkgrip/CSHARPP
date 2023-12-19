@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\NI\\.nuget\\packages\\": {},
-    "M:\\Progam Files (x86)\\Microsft Visual Dtudio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hakus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NI\\Downloads\\新しいフォルダー (3)\\CSHARPP\\c#(ノーパソ).csproj",
-      "projectName": "c#(ノーパソ)",
-      "projectPath": "C:\\Users\\NI\\Downloads\\新しいフォルダー (3)\\CSHARPP\\c#(ノーパソ).csproj",
-      "packagesPath": "C:\\Users\\NI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NI\\Downloads\\新しいフォルダー (3)\\CSHARPP\\obj\\",
+      "projectUniqueName": "C:\\Users\\hakus\\ドキュメント\\LCS\\LCS.csproj",
+      "projectName": "LCS",
+      "projectPath": "C:\\Users\\hakus\\ドキュメント\\LCS\\LCS.csproj",
+      "packagesPath": "C:\\Users\\hakus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hakus\\ドキュメント\\LCS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "M:\\Progam Files (x86)\\Microsft Visual Dtudio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\NI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hakus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
