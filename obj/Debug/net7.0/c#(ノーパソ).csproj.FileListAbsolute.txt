@@ -43,3 +43,17 @@ C:\Users\hakus\デスクトップ\CSHARPP\obj\Debug\net7.0\refint\c#(ノーパ�
 C:\Users\hakus\デスクトップ\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).pdb
 C:\Users\hakus\デスクトップ\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).genruntimeconfig.cache
 C:\Users\hakus\デスクトップ\CSHARPP\obj\Debug\net7.0\ref\c#(ノーパソ).dll
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).AssemblyInfoInputs.cache
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).AssemblyInfo.cs
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).csproj.CoreCompileInputs.cache
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).dll
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\refint\c#(ノーパソ).dll
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).pdb
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\bin\Debug\net7.0\c#(ノーパソ).exe
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\bin\Debug\net7.0\c#(ノーパソ).deps.json
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\bin\Debug\net7.0\c#(ノーパソ).runtimeconfig.json
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\bin\Debug\net7.0\c#(ノーパソ).dll
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\c#(ノーパソ).genruntimeconfig.cache
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\bin\Debug\net7.0\c#(ノーパソ).pdb
+C:\Users\NI\Downloads\新しいフォルダー (3)\CSHARPP\obj\Debug\net7.0\ref\c#(ノーパソ).dll
