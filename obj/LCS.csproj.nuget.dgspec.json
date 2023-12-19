@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hakus\\ドキュメント\\LCS\\LCS.csproj": {}
+    "C:\\Users\\hakus\\Downloads\\CSHARPP-main\\LCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hakus\\ドキュメント\\LCS\\LCS.csproj": {
+    "C:\\Users\\hakus\\Downloads\\CSHARPP-main\\LCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hakus\\ドキュメント\\LCS\\LCS.csproj",
+        "projectUniqueName": "C:\\Users\\hakus\\Downloads\\CSHARPP-main\\LCS.csproj",
         "projectName": "LCS",
-        "projectPath": "C:\\Users\\hakus\\ドキュメント\\LCS\\LCS.csproj",
+        "projectPath": "C:\\Users\\hakus\\Downloads\\CSHARPP-main\\LCS.csproj",
         "packagesPath": "C:\\Users\\hakus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hakus\\ドキュメント\\LCS\\obj\\",
+        "outputPath": "C:\\Users\\hakus\\Downloads\\CSHARPP-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hakus\\AppData\\Roaming\\NuGet\\NuGet.Config",
