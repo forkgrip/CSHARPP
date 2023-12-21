@@ -1,0 +1,5 @@
+・初回
+ファイル全部持ってくるときは、コンソールで、git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/
+
+・リモートリポジトリから、ファイルを同期する
+たぶんソース管理・・・から、プルの欄で、同期使う？
