@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DMHLF8avcT7iracqvPF3OvVptbxPHICw9ARnYN2DtrQXml4IaRLI5+fCPNNiTi5yBe4gzpWMTA9+bsh891HP/Q==",
+  "dgSpecHash": "0y1lzKPn/HejhSaQyCk7aLTfwBK6aAzbqJncLBElFP8rRclZtvbWkxLIfdnxG1RAGkydMehIk2isl4URlHoavg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hakus\\Downloads\\CSHARPP-main\\LCS.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\hakus\\ドキュメント\\newF\\CSHARPP\\LCS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hakus\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\hakus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\hakus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\hakus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
