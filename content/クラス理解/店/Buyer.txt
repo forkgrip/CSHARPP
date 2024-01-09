@@ -32,6 +32,8 @@ namespace third_buy
                 //お店ショップの処理を参照（簡単に言うと、お店ショップの取引を開始）
                 SaleFromStoreShop.sale_stuff();
             }
+
+            if
             
         }
     }

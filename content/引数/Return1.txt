@@ -6,15 +6,16 @@ namespace first
     {
         static void Main(string[] args)
         {
-            int num = Method(23,900);
-            Console.WriteLine(num);
+            int result = Addresult(23, 900);
+            Console.WriteLine("結果"+result);
         }
-        
-        //methodメソッドを作り、引数を宣言
-        static int Method(int num,int room)
-        {   
-            Console.WriteLine(num);
-            num = 0 + room;
+
+        // Methodメソッドを作り、引数を宣言
+        static int Addresult(int num, int room)
+        {
+            Console.WriteLine("変更前のnum=" + num);
+            num += room;
+            Console.WriteLine("変更後のnum=" + num);
             return num;
         }
     }

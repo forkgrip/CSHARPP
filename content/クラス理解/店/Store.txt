@@ -35,18 +35,24 @@ namespace third_store
             if (chose_stuff == 1)
             {
                 Console.WriteLine("飲料水を購入します。");
+
                 //購入者の所持金から最大で何個買えるか計算して表示（BuyerクラスのBuyer_Money変数を参照）
                 Console.WriteLine("現在の所持金は、"+ StoreBuy.Buyer_Money +"円なので、最大で" + (StoreBuy.Buyer_Money/this.stuff_1_price) +"コ買えます。" );
+
                 //何本買うか、ユーザーが希望する数をstring型で数値を入力させ、
                 Console.WriteLine("何本買いますか？");
+
                 //何本買うか、ユーザーが希望する数をstring型で数値を入力させ、
                 string choose_stuff_num_str = Console.ReadLine();
+
                 //int型にする
                 int chose_stuff_num = int.Parse(choose_stuff_num_str);
                 //希望した個数を表示し、
                 Console.WriteLine("合計で、" + (chose_stuff_num * this.stuff_1_price) + "円です" );
+
                 //おつりを表示する
                 Console.WriteLine("おつりは、" + (StoreBuy.Buyer_Money - (chose_stuff_num*this.stuff_1_price)) + "円です");
+                
                 //購入者の現在の所持金を入力(↑では、"StoreBuy.Buyer_Money"の値を変化させないから)
                 StoreBuy.Buyer_Money -= (chose_stuff_num*this.stuff_1_price);
 

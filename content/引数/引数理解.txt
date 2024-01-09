@@ -1,0 +1,80 @@
+引数とは、変数の参照　　　　　　　　（やってることは、インスタンスなどと変わらん）
+
+・参照のみ
+
+書き方
+∟
+
+　引数ありのメソッド
+　∟
+　　public void NumS(int num) 
+                        ↑引数宣言
+　参照（引数渡し）
+　∟
+　　メソッド名(変数値);
+                ↑引数
+
+例
+
+using System;
+namespace first
+{
+    class Program
+    {
+        //Numberの参照＋引数渡し(「23」を入力)
+        static void Main(string[] args)
+        {
+            Number(23);
+        }
+  
+        //Numberメソッドを作り、引数を宣言
+        static void Number(int num)
+        {   
+            Console.WriteLine(Mainメソッドから渡された引数num=num);
+        }
+    }
+}
+
+---コンソール---
+Mainメソッドから渡された引数num=num
+
+
+
+・戻り値
+
+渡した引数を返すこと
+
+書き方
+∟ 
+　型 変数名 = return (引数名);
+
+もちろん"参照のみ"のコードが必要
+
+using System;
+namespace two
+{
+    class Program
+    {
+        //resultに
+        //Numberの参照＋引数渡し(「23」を入力)
+        static void Main(string[] args)
+        {
+            int result = Number(23);
+            Console.WriteLine("Numberに渡した23が変化して戻ってきたので、result変数は" + result + "となる");
+        }
+
+        //Numberメソッドを作り、引数を宣言、その引数を変化させて、戻り値
+        static int Number(int num)
+        {   
+            Console.WriteLine("Mainメソッドから渡された引数numは" + num);
+            num = num + 500;
+            Console.WriteLine("それに500足して" + num);
+            return num;
+        }
+    }
+}
+
+---コンソール---
+Mainメソッドから渡された引数numは23
+それに500足して523
+Numberに渡した23が変化して戻ってきたので、result変数は523となる
