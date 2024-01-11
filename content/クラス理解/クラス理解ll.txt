@@ -50,6 +50,7 @@ class LASC
 ---説明---
 ※コンストラクタ
 メンバ変数で定義したものは、null(なんも中身がない)なので、初期の値を定義するもの
+普通は、this.number = number; (this.number = 20;はおすすめしない)
 別にint number = 20; ってやってもいい
 
 ※2
