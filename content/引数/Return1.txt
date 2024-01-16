@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace first
 {
@@ -6,7 +7,9 @@ namespace first
     {
         static void Main(string[] args)
         {
-            int result = Addresult(23, 900);
+            double result = (23);
+            double result2 = calculations(90.9333);
+            result += result2;
             Console.WriteLine("結果"+result);
         }
 
@@ -18,5 +21,14 @@ namespace first
             Console.WriteLine("変更後のnum=" + num);
             return num;
         }
+
+        static double calculations(double mos1)
+        {
+            
+            mos1 = 3903.44;
+
+            return mos1;
+        }
+
     }
 }
