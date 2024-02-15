@@ -1,0 +1,14 @@
+//algomethod用に使う
+
+using System;
+class Program{
+    static void Main(string[] args){
+        string name = "こめ";
+        for(int i = 1; i >= 3 ; i++)
+        {
+
+        }
+
+        
+    }
+}
