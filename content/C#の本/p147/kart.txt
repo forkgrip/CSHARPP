@@ -1,0 +1,21 @@
+using System;
+
+namespace karts
+{
+    class Kart
+    {
+        public int weight;
+
+        public int speed;
+
+        public void Force()
+        {
+        Console.WriteLine("加速or減速");
+        }
+        public virtual void Horn()
+        {
+            Console.WriteLine("ぴっぴー");
+
+        }
+    }
+}

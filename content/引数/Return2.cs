@@ -76,8 +76,8 @@ namespace first
                     //なんにも入力されてないとき、continueで、もっかいループの最初に行く
                 }
         }
-
         //if文には、全部の分けめにretrunを入れる必要がある。
+        
         static int VendingMachine(int chosed, ref int useMoney)
         {
             //１が選ばれたときの処理

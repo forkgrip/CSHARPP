@@ -33,7 +33,7 @@ namespace third_buy
                 SaleFromStoreShop.sale_stuff();
             }
 
-            if
+            
             
         }
     }

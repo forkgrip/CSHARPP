@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Smaple
 {
@@ -6,13 +7,12 @@ namespace Smaple
     {
         static void Main(string[] args)
         {
-            Plyer plyer = new Plyer("AAAA", -999999);
-            
-            int hp = plyer.GetHp();
+            Player player1 = new Player("無名", 100);
+            int hp = player1.GetHp(); 
+            Console.WriteLine(player1.GetHp());
 
-            plyer.SetHp(hp);
-
-            Console.WriteLine(hp);
+            string name = player1.GetName();
+            Console.WriteLine(player1.GetName());
         }
     }
 }

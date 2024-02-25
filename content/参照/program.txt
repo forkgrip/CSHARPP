@@ -1,0 +1,58 @@
+using System;
+using System.Globalization;
+
+namespace sansyo
+{
+    class Program
+    {
+
+        static void Main (string[] args)
+        {
+            Clac(12);
+            int num = Clac(20);
+            Console.WriteLine(num);
+            CheckZero(120);
+            LongSentenceShow();
+            string A = RandomSentencs();
+        }
+
+        static int Clac (int num1)
+        {
+            int result;
+
+            result = (num1 * num1) - 90;  
+
+            return result;
+        }
+
+        static void CheckZero(int num)
+        {
+            if (num != 0)
+            {
+            Console.WriteLine("参照された数字は0でない数字");
+            }
+            else
+            {
+            Console.WriteLine("参照された数字は0でない数字");
+            }
+        }
+
+        static void LongSentenceShow()
+        {
+            Console.WriteLine("grejgoffbkofkekoekkookfodkfkofgkodbmfmbmfbmfmbobmoffffffffffffffffffffffffobofobmfobmfombfob");
+        }
+
+        static string RandomSentencs()
+        {
+            string RandomSentencs = "eofkovozofmvdmfkmvkemfkvm";
+            return RandomSentencs;
+        }
+
+        static int ConversionToNumber(string UserInput)
+        {
+            int num = int.Parse(UserInput);
+            return num;
+        }
+
+    }
+}

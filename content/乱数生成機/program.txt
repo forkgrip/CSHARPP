@@ -1,0 +1,59 @@
+using System;
+using System.Globalization;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+
+namespace Program
+{
+    class MainProgram
+    {
+        static void Main (string[] args)
+        {
+            Random r = new Random();
+            //範囲を決める    
+            double[] range1 = {0.038, 0.039, 0.040, 0.041};
+            double[] range2 = {0.039, 0.040, 0.041}; 
+            //初期値
+            double FirstNum = 0.140;
+            double FirstNum2 = 1.320;
+            //変化値変数
+            double ChengedNum1 = 0.0;
+            double ChengedNum2 = 0.0;
+            //ランダム処理(33回、ランダムな範囲の値を初期値に累加)
+            for (int i = 1; i <= 34; i += 1)
+            {
+                int RandomNum = r.Next(4);
+                //
+                if (i == 1)
+                {
+                    ChengedNum1 = FirstNum + range1[RandomNum];
+                    Console.WriteLine(FirstNum);
+                    Console.WriteLine(Math.Round(ChengedNum1, 3));
+                }
+                else
+                {
+                    ChengedNum1 += range1[RandomNum];
+                    Console.WriteLine(Math.Round(ChengedNum1, 3));
+                }
+            }
+
+            Console.WriteLine("-----------------------こっから別の数-----------------------");
+
+            for (int j = 1; j <=34 ; j += 1)
+            {
+                int RandomNum2 = r.Next(3);
+                if (j == 1)
+                {
+                    ChengedNum2 = FirstNum2 - range2[RandomNum2];
+                    Console.WriteLine(FirstNum2);
+                    Console.WriteLine(Math.Round(ChengedNum2, 3));
+                }
+                else
+                {
+                    ChengedNum2 -= range2[RandomNum2];
+                    Console.WriteLine(Math.Round(ChengedNum2, 3));
+                }
+            }
+        }
+    }
+}

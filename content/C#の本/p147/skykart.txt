@@ -1,0 +1,28 @@
+using System;
+using karts;
+
+//派生クラス
+namespace karts
+{
+    class SkyKart : Kart
+    {
+        //クラス継承を使って同じものを省略をする↑
+        /*
+        public int weight;
+        public int speed;
+        public void Force()
+        {
+            Console.WriteLine("加速or減速");
+        }
+        */
+        public void Flying()
+        {
+            Console.WriteLine("離陸");
+        }
+        
+        public override void Horn()
+        {
+            Console.WriteLine("パラリラパラリラ");
+        }
+    }
+}

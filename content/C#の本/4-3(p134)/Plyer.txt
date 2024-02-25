@@ -2,33 +2,74 @@ using System;
 
 namespace Smaple
 {
-    class Plyer
+    class Player
     {
         //とりあえず定義
         private string name;
         private int hp;
         //コンストラクタ（初期値決め）
-        public Plyer (string name, int hp)
+        public Player (string name, int hp)
         {
             this.name = name;
             this.hp = hp;
         }
-        //Hpの値の設定(0未満にならないようにする)
-        //Hpを再設定したい場合は、インスタンス.SetHp(設定する変数名)
+        //hp=0以下にしないためのメソッド
+
+        //hpプロパティ
+        public int HP
+        {
+            set
+            {
+                this.hp = value;
+                if (this.hp < 0)
+                {
+                    this.hp = 0;
+                }
+            }
+            get
+            {
+                return this.hp;
+            }
+        }
+
         public void SetHp(int hp)
         {
-            if (this.hp < 0)
+            this.hp = hp;
+            if(hp < 0)
             {
                 this.hp = 0;
             }
         }
-        
+
+        //hpを初期値に戻すメソッド
         public int GetHp()
         {
             return this.hp;
         }
 
-        public void attck()
+        public void SetName(string name)
+        {
+            if(name != null)
+            {
+                int nameLength = name.Length;
+                if(nameLength < 8)
+                {
+                    this.name = name;
+                }
+                else
+                {
+                    Console.WriteLine("名前が長すぎます。８文字以下にしてください。");
+                }
+            }
+        }
+
+        public string GetName()
+        {
+            return this.name;
+        }
+
+
+        public void attack()
         {
             Console.WriteLine(this.name +"は攻撃した");
         }

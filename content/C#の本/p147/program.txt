@@ -1,0 +1,32 @@
+using System;
+using karts;
+
+namespace Program
+{
+    class Program
+    {
+        static void Main (string[] args)
+        {   
+            /*
+            SkyKart skyKart = new SkyKart();
+            TurboKart turboKart = new TurboKart();
+            */
+            /*
+            skyKart.Force();
+            skyKart.Flying();
+            turboKart.Force();
+            turboKart.Flying();
+            */
+            //↑こいうのいちいちめんどいから略した→ポリモーフィズム
+            Kart [] karts = new SkyKart[2];
+            karts [0] = new SkyKart();
+            karts [1] = new TurboKart();
+
+            karts [0].Force();
+            //基本クラスにないものを参照できないので、こゆうのダメ
+            /*
+            karts [0].Flying();
+            */
+        }
+    }
+}
